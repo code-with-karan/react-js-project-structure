@@ -1,0 +1,19 @@
+a {
+  color: var(--primary);
+}
+
+.ant-menu-vertical {
+  border-right: 0px solid #f0f0f0 !important;
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border: 1px solid var(--primary);
+}
+
+.ant-picker-today-btn {
+  color: var(--primary);
+}
+
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+  background: var(--primary) !important; 
+}

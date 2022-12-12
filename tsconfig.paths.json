@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@pages": ["./pages/index.tsx"],
+      "@configs": ["./configs/index.tsx"],
+      "@services/*": ["./services/*"],
+      "@store/*": ["./store/*"],
+      "@types/*": ["./types/*"],
+      "@layout": ["./layout/index.tsx"],
+      "@constants/*": ["./constants/*"],
+      "@assets/*": ["./assets/*"]
+    }
+  }
+}
